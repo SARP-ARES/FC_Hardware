@@ -1279,7 +1279,7 @@
 				)
 			)
 		)
-		(symbol "Device:Antenna"
+		(symbol "Device:Antenna_Shield"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1287,7 +1287,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "AE"
-				(at -1.905 1.905 0)
+				(at -1.905 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1295,8 +1295,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
+			(property "Value" "Antenna_Shield"
+				(at -1.905 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1305,7 +1305,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1314,7 +1314,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1322,7 +1322,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Antenna"
+			(property "Description" "Antenna with extra pin for shielding"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1340,10 +1340,46 @@
 					(hide yes)
 				)
 			)
-			(symbol "Antenna_0_1"
+			(symbol "Antenna_Shield_0_1"
+				(arc
+					(start -0.508 -1.143)
+					(mid -0.8429 -2.1194)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.667)
+					(mid 0.7989 -2.1052)
+					(end 0.508 -1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -3.81)
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -1355,7 +1391,31 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+						(xy 0.762 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -1363,10 +1423,21 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
-			(symbol "Antenna_1_1"
+			(symbol "Antenna_Shield_1_1"
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -1378,6 +1449,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11176,7 +11265,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna")
+		(lib_id "Device:Antenna_Shield")
 		(at 373.38 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11186,7 +11275,7 @@
 		(fields_autoplaced yes)
 		(uuid "28610b34-c875-4e3f-8cad-e5ff8037c8c9")
 		(property "Reference" "AE1"
-			(at 377.19 132.0799 90)
+			(at 379.222 132.7093 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11195,7 +11284,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 377.19 134.6199 90)
+			(at 379.222 135.1336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +11293,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
-			(at 373.38 133.35 0)
+			(at 375.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11213,7 +11302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 373.38 133.35 0)
+			(at 375.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,7 +11310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Antenna"
+		(property "Description" "Antenna with extra pin for shielding"
 			(at 373.38 133.35 0)
 			(effects
 				(font
@@ -11241,6 +11330,9 @@
 		)
 		(pin "1"
 			(uuid "a5639560-c305-4d12-aa98-205287c31da5")
+		)
+		(pin "2"
+			(uuid "8b754bbf-d407-4986-a2f6-1515b61b54c0")
 		)
 		(instances
 			(project "ARES_FC"
@@ -15170,6 +15262,73 @@
 			(project "ARES_FC"
 				(path "/449acbee-2eeb-4316-a8e9-c26dd430524e"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 368.3 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "880b56fa-e426-4d25-a136-59997fcf4bea")
+		(property "Reference" "#PWR026"
+			(at 361.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf0a76c5-1bde-4ace-bbd0-d6e27c90a4a7")
+		)
+		(instances
+			(project "ARES_FC"
+				(path "/449acbee-2eeb-4316-a8e9-c26dd430524e"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)

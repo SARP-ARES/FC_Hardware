@@ -6558,7 +6558,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.588 186.69) (xy 132.588 189.23)
+			(xy 132.08 186.69) (xy 132.08 189.23)
 		)
 		(stroke
 			(width 0)
@@ -6588,7 +6588,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.588 196.85) (xy 132.588 199.39)
+			(xy 132.08 196.85) (xy 132.08 199.39)
 		)
 		(stroke
 			(width 0)
@@ -7038,7 +7038,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.588 172.974) (xy 132.588 179.07)
+			(xy 132.08 172.974) (xy 132.08 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7308,7 +7308,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.668 196.85) (xy 137.668 199.39)
+			(xy 137.16 196.85) (xy 137.16 199.39)
 		)
 		(stroke
 			(width 0)
@@ -7538,7 +7538,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.668 172.974) (xy 137.668 179.07)
+			(xy 137.16 172.974) (xy 137.16 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8598,7 +8598,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.668 186.69) (xy 137.668 189.23)
+			(xy 137.16 186.69) (xy 137.16 189.23)
 		)
 		(stroke
 			(width 0)
@@ -9482,7 +9482,7 @@
 	)
 	(rectangle
 		(start 280.67 92.71)
-		(end 386.08 144.78)
+		(end 388.62 144.78)
 		(stroke
 			(width 0)
 			(type default)
@@ -9538,9 +9538,9 @@
 		)
 		(uuid "17e47184-289d-42e7-aa4b-119e08a8e6c7")
 	)
-	(text "Altimeter"
+	(text "BMP280 (Altimeter)"
 		(exclude_from_sim no)
-		(at 295.402 70.866 0)
+		(at 300.228 70.866 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9559,9 +9559,9 @@
 		)
 		(uuid "462d1b07-261c-4532-abff-3546af59adea")
 	)
-	(text "PA1616S"
+	(text "PA1616S (GPS)"
 		(exclude_from_sim no)
-		(at 293.878 143.256 0)
+		(at 290.068 142.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9601,7 +9601,7 @@
 		)
 		(uuid "84eab7c3-e476-4502-ad66-8656e4c5f401")
 	)
-	(text "USB-C OTG"
+	(text "USB-C + LDO"
 		(exclude_from_sim no)
 		(at 178.562 90.678 0)
 		(effects
@@ -9611,16 +9611,6 @@
 			(justify left bottom)
 		)
 		(uuid "8dbb409c-0604-4120-90cd-140bed3c504e")
-	)
-	(text "GPS"
-		(exclude_from_sim no)
-		(at 284.226 143.002 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "942d33f4-17a6-4ef9-b78b-192aec78ae01")
 	)
 	(text "UART CONNECTORS"
 		(exclude_from_sim no)
@@ -9632,7 +9622,7 @@
 		)
 		(uuid "98be2001-8c9a-4ce6-a87d-62455eb5e08e")
 	)
-	(text "BNO055"
+	(text "BNO055 (IMU)"
 		(exclude_from_sim no)
 		(at 294.132 230.378 0)
 		(effects
@@ -10095,7 +10085,7 @@
 		(uuid "9b0c1a85-7cec-48f7-9c42-855e024949d9")
 	)
 	(label "LED_B"
-		(at 137.668 172.974 270)
+		(at 137.16 172.974 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10348,7 +10338,7 @@
 		(uuid "ee692468-0940-4c13-8580-5773bb762a8c")
 	)
 	(label "LED_G"
-		(at 132.588 172.974 270)
+		(at 132.08 172.974 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10560,7 +10550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.588 199.39 0)
+		(at 132.08 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10569,7 +10559,7 @@
 		(fields_autoplaced yes)
 		(uuid "05fbf4ca-54ab-4f45-8308-eaebf8dbda4f")
 		(property "Reference" "#PWR0136"
-			(at 132.588 205.74 0)
+			(at 132.08 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10578,7 +10568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.588 204.47 0)
+			(at 132.08 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10587,7 +10577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.588 199.39 0)
+			(at 132.08 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10596,7 +10586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.588 199.39 0)
+			(at 132.08 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10605,7 +10595,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.588 199.39 0)
+			(at 132.08 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,16 +12555,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.588 193.04 0)
+		(at 132.08 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "372a4678-da98-409b-af8f-135a8734d199")
 		(property "Reference" "R8"
-			(at 134.366 192.2053 0)
+			(at 127.508 192.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,7 +12572,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 134.366 194.7422 0)
+			(at 127.508 194.8149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12592,7 +12581,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 130.81 193.04 90)
+			(at 130.302 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12601,7 +12590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.588 193.04 0)
+			(at 132.08 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12610,7 +12599,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.588 193.04 0)
+			(at 132.08 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +12608,7 @@
 			)
 		)
 		(property "LCSC Part" "C11702"
-			(at 132.588 193.04 0)
+			(at 132.08 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14495,7 +14484,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 132.588 182.88 90)
+		(at 132.08 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14503,7 +14492,7 @@
 		(dnp no)
 		(uuid "695eaf9b-3f9e-4132-9630-d6c07cab22b0")
 		(property "Reference" "D2"
-			(at 130.429 184.9028 90)
+			(at 126.746 181.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14512,7 +14501,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 130.429 187.4397 90)
+			(at 126.746 184.4009 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14521,7 +14510,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 132.588 182.88 0)
+			(at 132.08 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14530,7 +14519,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.588 182.88 0)
+			(at 132.08 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14539,7 +14528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.588 182.88 0)
+			(at 132.08 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14548,7 +14537,7 @@
 			)
 		)
 		(property "LCSC Part" "C12624"
-			(at 132.588 182.88 0)
+			(at 132.08 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15786,7 +15775,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 137.668 182.88 90)
+		(at 137.16 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15794,7 +15783,7 @@
 		(dnp no)
 		(uuid "8f69d6c5-5b5f-4803-afa4-a27b9e5b21ae")
 		(property "Reference" "D3"
-			(at 135.509 184.9028 90)
+			(at 138.938 181.6131 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15803,7 +15792,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 135.509 187.4397 90)
+			(at 138.938 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15812,7 +15801,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 137.668 182.88 0)
+			(at 137.16 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15821,7 +15810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.668 182.88 0)
+			(at 137.16 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15830,7 +15819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.668 182.88 0)
+			(at 137.16 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15839,7 +15828,7 @@
 			)
 		)
 		(property "LCSC Part" "C2288"
-			(at 137.668 182.88 0)
+			(at 137.16 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18511,7 +18500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.668 199.39 0)
+		(at 137.16 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18520,7 +18509,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3c114b2-b151-4496-82d9-e3a263c49105")
 		(property "Reference" "#PWR0140"
-			(at 137.668 205.74 0)
+			(at 137.16 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18529,7 +18518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.668 204.47 0)
+			(at 137.16 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18538,7 +18527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.668 199.39 0)
+			(at 137.16 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18547,7 +18536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.668 199.39 0)
+			(at 137.16 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18556,7 +18545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.668 199.39 0)
+			(at 137.16 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18719,7 +18708,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 137.668 193.04 0)
+		(at 137.16 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18728,7 +18717,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8dafd44-0c25-4023-9d1c-01b0d7aa95ae")
 		(property "Reference" "R9"
-			(at 139.446 192.2053 0)
+			(at 138.938 192.2053 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18737,7 +18726,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 139.446 194.7422 0)
+			(at 138.938 194.7422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18746,7 +18735,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 135.89 193.04 90)
+			(at 135.382 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18755,7 +18744,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.668 193.04 0)
+			(at 137.16 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18764,7 +18753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.668 193.04 0)
+			(at 137.16 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18773,7 +18762,7 @@
 			)
 		)
 		(property "LCSC Part" "C11702"
-			(at 137.668 193.04 0)
+			(at 137.16 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

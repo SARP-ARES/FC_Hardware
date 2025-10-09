@@ -1,5 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-AE1,Antenna,U.FL_Molex_MCRF_73412-0110_Vertical,171.2,-113.792,0,top
+AE1,Antenna,U.FL_Molex_MCRF_73412-0110_Vertical,171.245,-113.792,0,top
 C1,100nF,C_0402_1005Metric,144.28,-93.011,180,top
 C2,10pF,C_0402_1005Metric,141.5548,-90.79134,90,top
 C3,10pF,C_0402_1005Metric,141,-93.02854,90,top

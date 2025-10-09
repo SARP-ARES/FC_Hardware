@@ -2,7 +2,7 @@ Comment,Designator,Footprint,LCSC Part
 Antenna,AE1,Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical,C5137195
 1uF,"C10,C11,C21",Capacitor_SMD:C_0402_1005Metric,C52923
 2.2uF,C12,Capacitor_SMD:C_0402_1005Metric,C12530
-22uF,"C1,C13",Capacitor_SMD:C_0805_2012Metric,C5674
+22uF,"C1,C13,C14",Capacitor_SMD:C_0805_2012Metric,C5674
 22pF,"C17,C18",Capacitor_SMD:C_0402_1005Metric,C466226
 10pF,"C2,C3",Capacitor_SMD:C_0402_1005Metric,C32949
 10uF,C4,Capacitor_SMD:C_0603_1608Metric,C19702
